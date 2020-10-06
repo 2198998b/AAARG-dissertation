@@ -26,4 +26,6 @@
 
 ## 6 October
 * *0.5 hour* Setup github repo
+* *1 hour* Installing the uni vpn (with issues)
+* Setup and become familiar with Docker
 
