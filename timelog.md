@@ -26,6 +26,10 @@
 
 ## 6 October
 * *1 hour* Setup github repo
-* *1 hour* Installing the uni vpn (with issues)
+* *1.5 hour* Installing the uni vpn (with issues)
 * Setup and become familiar with Docker
+
+## 8 October
+* *1 hour* setup gui for accessing remote file system
+* *2 hour* attemping to gain understanding of files on system
 
