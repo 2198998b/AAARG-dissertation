@@ -14,7 +14,11 @@ Meet with supervisor, gain understanding of what to do following weeks
 * **Week 2**
 Setup tools (Docker/GPU Cluster). Read literature and inspect files given by Richard
 * **Week 3**
+--Affected by unexpected repairs in flat--
+Learn how to use the GPU cluster
 * **Week 4**
+--Affected by unexpected repairs in flat--
+Learn how to load dataset in python
 * **Week 5**
 * **Week 6**
 * **Week 7**

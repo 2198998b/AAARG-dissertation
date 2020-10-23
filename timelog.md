@@ -33,3 +33,21 @@
 * *1 hour* setup gui for accessing remote file system
 * *2 hour* attemping to gain understanding of files on system
 
+## 9 October
+* *4 hour* done research into current TS techniques
+* *0.5 hour* formulated questions for meeting
+* *0.5 hour* meeting
+
+## 10-19 October Progress interrupted by housing issues
+
+## 20 October
+* *1 hour* running notebook on cluster
+* *3 hour* figuring out how to utilise file system and filtered data set in notebooks
+
+## 22 October
+* *3 hour* figuring how to process dataset into panda dataframe
+
+## 23 October
+* *2 hour* figuring how to process dataset into panda dataframe
+* *1 hour* preparing for meeting
+
