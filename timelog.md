@@ -51,3 +51,6 @@
 * *2 hour* figuring how to process dataset into panda dataframe
 * *1 hour* preparing for meeting
 
+## 26 October
+* *1.5 hour* creating user scenario
+* *1.5* creating user stories

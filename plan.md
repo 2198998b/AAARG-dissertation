@@ -20,6 +20,7 @@ Learn how to use the GPU cluster
 --Affected by unexpected repairs in flat--
 Learn how to load dataset in python
 * **Week 5**
+Generate planning docs (user story/scenario, specification)
 * **Week 6**
 * **Week 7**
 * **Week 8**
