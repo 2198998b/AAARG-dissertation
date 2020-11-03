@@ -22,6 +22,7 @@ Learn how to load dataset in python
 * **Week 5**
 Generate planning docs (user story/scenario, specification)
 * **Week 6**
+Figure out process needed for summarisation and topic modelling
 * **Week 7**
 * **Week 8**
 * **Week 9**

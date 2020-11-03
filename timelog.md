@@ -55,3 +55,6 @@
 * *1.5 hour* creating user scenario
 * *1.5* creating user stories
 * *2 hour* loading filtered dataset
+
+## 3 November
+* *5 hour* figuring out extractive summarisation in notebook
