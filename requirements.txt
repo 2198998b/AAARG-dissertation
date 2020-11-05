@@ -1,11 +1,17 @@
-beautifulsoup4 # html parser
-lxml  # xml beautiful soup extension
-spacy  # preprocessing
-torch 
-torchvision  # for gpu optimization
-tensorflow  # for gpu optimization
+# HTML/XML parsing
+beautifulsoup4
+lxml 
+
+# bert-extractive-summarizer dependencies
+spacy==2.1.3  # preprocessing
 neuralcoref
-transformers  # pre-trained lang models (e.g. BERT)
-sentence-transformers
-tensorflow
+transformers==2.2.2  # pre-trained lang models (e.g. BERT)
 bert-extractive-summarizer
+
+#torch 
+#torchvision  # for gpu optimization
+#tensorflow  # for gpu optimization
+
+#sentence-transformers
+#tensorflow
+
