@@ -1,10 +1,11 @@
-# Filename: Dockerfile
-FROM inferislux/zaiqiao-ml:latest  # ML Notebook config
+# # ML Notebook config
+FROM inferislux/zaiqiao-ml:latest
 
 
-# Extra python dependencies
+# update python build tools
 #RUN apt-get update && apt-get -y install build-essential python-dev
 #RUN pip install --upgrade pip
+
 # install requirements.txt
 COPY requirements.txt /tmp
 WORKDIR /tmp
