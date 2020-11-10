@@ -2,16 +2,25 @@
 beautifulsoup4
 lxml 
 
+# dependency version for pytorch/tensorflow
+protobuf==3.9.2
+typing==3.6.6
+grpcio==1.24.3
+graphviz==0.8.1
+urllib3==1.25.4
+
 # bert-extractive-summarizer dependencies
+tensorflow
+torch==1.7.0
+torchvision==0.8.1
+
 spacy==2.1.3  # preprocessing
 neuralcoref
 transformers==2.2.2  # pre-trained lang models (e.g. BERT)
+#transformers==3.1.0
 bert-extractive-summarizer
 
-#torch 
-#torchvision  # for gpu optimization
-#tensorflow  # for gpu optimization
+#sentence-transformers  # sentence level embeddings
 
-#sentence-transformers
-#tensorflow
+#hbdscan  # clustering algorithm
 
