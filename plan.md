@@ -24,6 +24,7 @@ Generate planning docs (user story/scenario, specification)
 * **Week 6**
 Figure out process needed for summarisation and topic modelling
 * **Week 7**
+Resolve dependency issues, create model process
 * **Week 8**
 * **Week 9**
 * **Week 10**
