@@ -8,7 +8,16 @@ metadata:
 spec:
   serviceAccountName: containerroot
   containers:
-    - name: aaarg-notebook-env
+    - resources:
+        requests:
+          cpu: "4000m"
+          memory: "16Gi"
+          nvidia.com/gpu: 4
+        limits:
+          cpu: "8000m"
+          memory: "32Gi"
+          nvidia.com/gpu: 4
+      name: aaarg-notebook-env
       terminationMessagePath: /dev/termination-log
       command:
         - jupyter
