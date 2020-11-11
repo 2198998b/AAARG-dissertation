@@ -22,5 +22,5 @@ bert-extractive-summarizer
 
 sentence-transformers  # sentence level embeddings
 
-hbdscan  # clustering algorithm
+hdbscan  # clustering algorithm
 
