@@ -69,3 +69,4 @@
 
 ## 20 November
 * *1 hour* figuring out how to turn word embeddings into sentence embeddings
+* *2 hour* learning about Bayesian non-parametric topic modelling
