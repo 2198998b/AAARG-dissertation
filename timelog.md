@@ -65,3 +65,7 @@
 
 ## 13 November
 * *2 hour* supervisor meeting about model process and prep
+* *2 hour* preprocessing into sentences, generating sentence embeddings
+
+## 20 November
+* *1 hour* figuring out how to turn word embeddings into sentence embeddings
