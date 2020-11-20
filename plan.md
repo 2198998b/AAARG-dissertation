@@ -26,7 +26,9 @@ Figure out process needed for summarisation and topic modelling
 * **Week 7**
 Resolve dependency issues, create model process
 * **Week 8**
+Caught up with assignments
 * **Week 9**
+Introduce topic modelling method and clustering for sentences
 * **Week 10**
 * **Week 11 [PROJECT WEEK]**
 * **Week 12 [PROJECT WEEK]** Status report submitted.
