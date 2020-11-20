@@ -39,6 +39,7 @@
 * *0.5 hour* meeting
 
 ## 10-19 October Progress interrupted by housing issues
+## Caused lost entries October - November
 
 ## 20 October
 * *1 hour* running notebook on cluster
@@ -58,3 +59,13 @@
 
 ## 3 November
 * *5 hour* figuring out extractive summarisation in notebook
+
+## 11 November
+* *4 hour* creating and testing process for language model - word/sentence embeddings etc
+
+## 13 November
+* *2 hour* supervisor meeting about model process and prep
+* *2 hour* preprocessing into sentences, generating sentence embeddings
+
+## 20 November
+* *1 hour* figuring out how to turn word embeddings into sentence embeddings
