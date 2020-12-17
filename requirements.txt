@@ -23,5 +23,5 @@ bert-extractive-summarizer
 
 sentence-transformers  # sentence level embeddings
 gensim  # topic modelling algs (e.g. LDA)
-hdbscan  # clustering algorithm
+sklearn  # added for nearest neighbours
 
