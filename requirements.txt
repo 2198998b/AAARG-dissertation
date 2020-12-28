@@ -26,4 +26,4 @@ gensim  # topic modelling algs (e.g. LDA)
 sklearn  # added for nearest neighbours
 
 nbdime  # notebook merge tool
-rogue-score  # evaluation metric
+rouge-score  # evaluation metric
