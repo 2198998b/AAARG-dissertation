@@ -70,3 +70,9 @@
 ## 20 November
 * *1 hour* figuring out how to turn word embeddings into sentence embeddings
 * *2 hour* learning about Bayesian non-parametric topic modelling
+
+## 2nd January
+* Start django site to display database
+
+## 3rd January
+* Trying to resolve file permission db access issues
