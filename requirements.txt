@@ -29,3 +29,4 @@ nbdime  # notebook merge tool
 rouge-score  # evaluation metric
 ipynb  # allows importing other notebooks
 django==3.1.4
+mysql-connector
