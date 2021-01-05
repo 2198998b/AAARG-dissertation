@@ -1,0 +1,48 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: aaarg-pod-
+  labels:
+    app: aaarg-proj
+  namespace: 2198998bproject
+spec:
+  serviceAccountName: containerroot
+  containers:
+    - resources:
+        requests:
+          cpu: "4000m"
+          memory: "16Gi"
+          nvidia.com/gpu: 4
+        limits:
+          cpu: "8000m"
+          memory: "32Gi"
+          nvidia.com/gpu: 4
+      name: aaarg-notebook-env
+      terminationMessagePath: /dev/termination-log
+      command:
+        - jupyter
+      securityContext:
+        capabilities:
+          drop:
+            - MKNOD
+      ports:
+        - containerPort: 8888
+          protocol: TCP
+      imagePullPolicy: Always
+      volumeMounts:
+        - name: nfs-access
+          mountPath: /nfs/
+      terminationMessagePolicy: File
+      image: 'brodiecode/aaarg-notebook-env:latest'
+      args:
+        - notebook
+        - '--no-browser'
+        - '--ip=0.0.0.0'
+        - '--allow-root'
+        - '--NotebookApp.token='
+        - '--notebook-dir="/nfs/"'
+  serviceAccount: containerroot
+  volumes:
+    - name: nfs-access
+      persistentVolumeClaim:
+        claimName: 2198998bvol1claim

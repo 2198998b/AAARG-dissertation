@@ -1,0 +1,13 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: djangoroute
+  namespace: 2198998bproject
+spec:
+  path: /
+  to:
+    kind: Service
+    name: djangoservice
+  port:
+    targetPort: 8000
+
