@@ -25,7 +25,7 @@ SECRET_KEY = 'g253qhs=-dc7%)@e6@dr0#z@s9y)r=ff%d3r$#c8*-d2@##u*y'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['djangoroute-2198998bproject.ida.dcs.gla.ac.uk']
 
 
 # Application definition
