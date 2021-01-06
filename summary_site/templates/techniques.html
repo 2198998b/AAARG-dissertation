@@ -1,0 +1,13 @@
+{% comment %} {% extends base %} {% endcomment %}
+{% load static %}
+<html>
+<link rel="stylesheet" type="text/css" href="{% static "css/button.css" %}">
+
+<ul>
+{% for technique in technique_list %}
+    <li>
+        <a href="{% url 'instance_view' technique.slug %}" class="myButton">{{ technique.name }}</a>
+    </li>
+{% endfor %}
+</ul>
+</html>
