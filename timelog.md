@@ -72,7 +72,14 @@
 * *2 hour* learning about Bayesian non-parametric topic modelling
 
 ## 2nd January
-* Start django site to display database
+* *day* Start django site to display database
 
 ## 3rd January
-* Trying to resolve file permission db access issues
+* *day* Trying to resolve file permission db access issues
+
+## 4th January
+* *day* Refactoring to use remote MySQL db
+
+## 5th January
+* *day* Working MySQL connection on GPU Cluster with Django
+* *day* Creating initial django layout to access db
