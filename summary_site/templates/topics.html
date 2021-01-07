@@ -1,0 +1,15 @@
+{% load static %}
+<html>
+<link rel="stylesheet" type="text/css" href="{% static "css/button.css" %}">
+
+Select which topic to see a summary
+<ul>
+{% for topic in topic_list %}
+    <li>
+        <a href="{% url 'summary_view' tech_slug=tech_slug inst_id=inst_id topic_id=topic.id %}" class="myButton">{{ topic.title }}</a>
+    </li>
+{% endfor %}
+</ul>
+</html>
+
+

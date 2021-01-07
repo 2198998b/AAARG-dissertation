@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: djangoservice
+  namespace: 2198998bproject      
+spec:
+  selector:                  
+    app: aaarg-proj   
+  ports:
+  - name: django
+    port: 8000               
+    protocol: TCP
+    targetPort: 8000 
+
