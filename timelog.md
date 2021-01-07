@@ -83,3 +83,6 @@
 ## 5th January
 * *day* Working MySQL connection on GPU Cluster with Django
 * *day* Creating initial django layout to access db
+
+## 7th January
+* creating target labels for training model
