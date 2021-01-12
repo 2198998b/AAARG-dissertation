@@ -86,3 +86,7 @@
 
 ## 7th January
 * creating target labels for training model
+
+## 12th January
+* creating class to control generating files for dataset
+* beginning to filter larger dataset into usable files

@@ -38,6 +38,7 @@ Introduce topic modelling method and clustering for sentences
 ## Spring Semester
 
 * **Week 13**
+Filter larger dataset and create embeddings with labels for each sentence
 * **Week 14**
 * **Week 15**
 * **Week 16**
