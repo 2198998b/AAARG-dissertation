@@ -33,3 +33,4 @@ mysql-connector-python  # notebook mysql connector
 mysqlclient  # django mysql connector
 django-extensions  # for autogenerating slugs for django urls
 django-autoslug
+tables  # for storing hdf files
