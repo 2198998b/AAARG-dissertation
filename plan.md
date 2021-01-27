@@ -40,7 +40,9 @@ Introduce topic modelling method and clustering for sentences
 * **Week 13**
 Filter larger dataset and create embeddings with labels for each sentence
 * **Week 14**
+Finish processing corpus
 * **Week 15**
+Begin starting process to feed to NN model
 * **Week 16**
 * **Week 17**
 * **Week 19**

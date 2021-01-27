@@ -90,3 +90,7 @@
 ## 12th January
 * creating class to control generating files for dataset
 * beginning to filter larger dataset into usable files
+
+## 27 January
+* Finished generating all necessary files for corpus (embeddings/labels etc.)
+* Begin feeding data into NN model
