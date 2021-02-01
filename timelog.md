@@ -94,3 +94,7 @@
 ## 27 January
 * Finished generating all necessary files for corpus (embeddings/labels etc.)
 * Begin feeding data into NN model
+
+## 1 Feb
+* Started to tune hyperparameters for keras model
+* Started trying new ways to generate labels

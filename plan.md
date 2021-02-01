@@ -44,6 +44,7 @@ Finish processing corpus
 * **Week 15**
 Begin starting process to feed to NN model
 * **Week 16**
+Start optimizing hyperparameters and trying new labels for sentences
 * **Week 17**
 * **Week 19**
 * **Week 20**
