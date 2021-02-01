@@ -1,0 +1,24 @@
+kind: BuildConfig
+apiVersion: build.openshift.io/v1
+metadata:
+  name: "bs-aaarg"
+  namespace: 2198998bproject
+spec:
+  output:
+    to:
+      kind: ImageStreamTag
+      name: 'is-aaarg:latest'  # this is name of imagestream
+  resources: {}
+  successfulBuildsHistoryLimit: 5
+  failedBuildsHistoryLimit: 5
+  strategy:
+    type: Docker
+    dockerStrategy: {}
+  source:
+    type: Git
+    git:
+      uri: 'https://github.com/2198998b/AAARG-dissertation.git'
+      ref: main
+  triggers:
+    - type: ConfigChange
+  runPolicy: Serial
