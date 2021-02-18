@@ -3,16 +3,16 @@ beautifulsoup4
 lxml 
 
 # dependency version for pytorch/tensorflow
-protobuf==3.9.2
-typing==3.6.6
-grpcio==1.24.3
-graphviz==0.8.1
-urllib3==1.25.4
+# protobuf==3.9.2
+# typing==3.6.6
+# grpcio==1.24.3
+# graphviz==0.8.1
+# urllib3==1.25.4
 
 # bert-extractive-summarizer dependencies
-tensorflow
-torch==1.7.0
-torchvision==0.8.1
+#tensorflow==2.3
+#torch==1.7.0
+#torchvision==0.8.1
 
 spacy==2.1.3  # preprocessing
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.1.0/en_core_web_sm-2.1.0.tar.gz  # spacy model
@@ -22,7 +22,7 @@ transformers==3.1.0
 bert-extractive-summarizer
 
 sentence-transformers  # sentence level embeddings
-gensim  # topic modelling algs (e.g. LDA)
+#gensim  # topic modelling algs (e.g. LDA)
 sklearn  # added for nearest neighbours
 
 nbdime  # notebook merge tool
@@ -35,3 +35,5 @@ django-extensions  # for autogenerating slugs for django urls
 django-autoslug
 tables  # for storing hdf files
 keras-tuner  # hyperparameter optimization for keras NNs
+tqdm
+
