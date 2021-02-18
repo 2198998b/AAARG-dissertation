@@ -36,4 +36,5 @@ django-autoslug
 tables  # for storing hdf files
 keras-tuner  # hyperparameter optimization for keras NNs
 tqdm
+pandas
 
