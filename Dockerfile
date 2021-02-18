@@ -1,5 +1,5 @@
 # # ML Notebook config
-FROM inferislux/zaiqiao-ml:latest
+FROM tensorflow/tensorflow:latest-gpu-jupyter
 
 
 # update python build tools
