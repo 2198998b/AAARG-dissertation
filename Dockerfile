@@ -1,4 +1,3 @@
-# # ML Notebook config
 FROM tensorflow/tensorflow:latest-gpu-jupyter
 
 

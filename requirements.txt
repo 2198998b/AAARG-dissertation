@@ -30,7 +30,7 @@ rouge-score  # evaluation metric
 ipynb  # allows importing other notebooks
 django==3.1.4
 mysql-connector-python  # notebook mysql connector
-mysqlclient  # django mysql connector
+#mysqlclient  # django mysql connector
 django-extensions  # for autogenerating slugs for django urls
 django-autoslug
 tables  # for storing hdf files
