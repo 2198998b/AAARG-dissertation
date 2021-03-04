@@ -37,4 +37,4 @@ tables  # for storing hdf files
 keras-tuner  # hyperparameter optimization for keras NNs
 tqdm
 pandas
-
+numba  # speed up cosine similarity
